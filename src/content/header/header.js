@@ -1,7 +1,7 @@
-import {goHome} from "./home";
-import {aboutUs} from "./about";
-import {ourMenu} from "./menu";
-import {ourContacts} from "./contacts";
+import {goHome} from "./home_link";
+import {aboutUs} from "./about_link";
+import {ourMenu} from "./menu_link";
+import {ourContacts} from "./contacts_link";
 import {headerTop} from "./header_top";
 
 function Header(){
