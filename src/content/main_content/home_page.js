@@ -1,4 +1,4 @@
-class homePage{
+class HomePage{
     constructor(){
         const home = document.createElement('div');
         home.classList.add('home');
@@ -6,4 +6,4 @@ class homePage{
         return home;   
     };
  };
- export {homePage}
+ export {HomePage}
