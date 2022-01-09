@@ -1,6 +1,6 @@
 function ourContacts(){
     const contacts = document.createElement('button');
-    contacts.innerHTML = 'Contacts';
+    contacts.innerHTML = 'Контакты';
     contacts.classList.add('contactLink');
     contacts.classList.add('headerButton');
     contacts.id = 'contacts';

@@ -1,6 +1,6 @@
 function ourMenu(){
     const menu = document.createElement('button');
-    menu.innerHTML = 'Menu';
+    menu.innerHTML = 'Меню';
     menu.classList.add('menuLink');
     menu.classList.add('headerButton');
     menu.id = 'menuLink';

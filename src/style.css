@@ -25,6 +25,11 @@
     height: 200px;
     background: url(./content/images/header_top_background.jpg) center no-repeat;
     background-size: 100% 200px;
+    
+    
+}
+.header_top_text{
+    margin-top: 20px;
     font-size: 42px;
     color: cornsilk;
 }
@@ -63,19 +68,38 @@
     flex-direction: column;
     align-items: center;
     font-size: 42px;
+    height: 90vh;
 }
 .menuWrapper{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
-    height: 200px;
+    height: 80vh;
+}
+.menuText{
+    height: 5vh;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.menu_item{
+    width: 30%;
+    margin-left: 54px;
+}
+.pizza_info{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.pizza_ingredients{
+    font-size: 20px;
 }
 .menu_img{
-    height: 350px;
-    width: 350px;
+    height: 260px;
+    width: 295px;
 }
 .footer{
     width: 100%;
     height: 80px;
-    background-color: coral;
+    background-color: #e68609;
+    color: cornsilk;
 }

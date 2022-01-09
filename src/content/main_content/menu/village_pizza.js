@@ -1,10 +1,10 @@
-class FourCheezes{
+class VillagePizza{
     constructor(){
-        const fourChese = document.createElement('div');
-            fourChese.classList.add('menu_item');
-            
+        const village = document.createElement('div');
+            village.classList.add('menu_item');
+
         const info = document.createElement('p');
-            info.textContent = 'Пицца Четыре Сыра';
+            info.textContent = 'Деревенская пицца';
             info.classList.add("pizza_info");
             
         const list = document.createElement('p');
@@ -13,19 +13,19 @@ class FourCheezes{
 
         const listItem = document.createElement('p');
             listItem.classList.add("pizza_ingredients");
-            listItem.textContent = `Сыры: маасдам, дорблю, пармезан, моцарелла`;
+            listItem.textContent = `Свежие овощи, ветчина, маринованные огурчики`
         list.appendChild(listItem);
 
         const img = document.createElement('IMG');
             img.classList.add('menu_img');
-            img.src =  "/src/content/images/four_cheeses.jpg";
+            img.src =  "/src/content/images/village_pizza.png";
 
-        fourChese.appendChild(info);
-        fourChese.appendChild(img);
-        fourChese.appendChild(list);
+            village.appendChild(info);
+            village.appendChild(img);
+            village.appendChild(list);
          
-        return fourChese;
+        return village;
         
     }
 };
-export{FourCheezes}
+export{VillagePizza}
